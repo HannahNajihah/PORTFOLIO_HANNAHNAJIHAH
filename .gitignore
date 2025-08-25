@@ -1,0 +1,15 @@
+﻿# Ignore heavy or raw data
+*.csv
+*.arff
+data/
+
+# Optional: ignore Power BI files if they get large (>100MB)
+*.pbix
+
+# Python envs & cache
+venv/
+__pycache__/
+
+# OS junk
+.DS_Store
+Thumbs.db
